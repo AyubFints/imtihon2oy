@@ -407,3 +407,41 @@
   background-size: 100% 100%;
   margin-top: -100px;
 }
+.contact{
+  height: 512px;
+  text-align: center;
+  padding: 256px;
+  background-image: url(../assets//image\ \(9\).png);
+  background-size: 100% 100%;
+  margin-top: -100px;
+}
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* MAP */
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+
+.map-container iframe {
+  width: 80%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+}
+.map-container {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 500px; /* xohlasangiz 600px ham qilsa bo‘ladi */
+  border: none;
+  display: block;
+}
