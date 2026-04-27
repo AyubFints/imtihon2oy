@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 52, 52);
+    height: 91px;
+    padding: 0 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #817f7f;
+    padding-bottom: 5px;
+}
+
+/* ACTIVE LINK */
+.link.active {
+    border-bottom: 3px solid #123;
+}

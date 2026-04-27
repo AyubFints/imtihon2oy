@@ -1,0 +1,154 @@
+/* Contact.css */
+
+.contact-container {
+    background-color: #ffcd00; /* Rasmdagi sariq rangga moslashtirilgan */
+    color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 60px 5%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* YUqori qism */
+  .contact-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-text h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+  
+  .contact-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  .contact-form-wrapper {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #111;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px 0 10px 0;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+    resize: none;
+  }
+  
+  .input-group input:focus,
+  .input-group textarea:focus {
+    border-bottom: 1px solid #000;
+  }
+  
+  .submit-btn {
+    background-color: #000;
+    color: #ffcd00;
+    border: none;
+    padding: 16px 40px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .divider {
+    border-top: 2px dotted #8b5cf6;
+    margin: 40px 0;
+  }
+  
+  .contact-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    gap: 30px;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col h4 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .footer-col p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons span {
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
